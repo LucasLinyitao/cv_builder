@@ -1,0 +1,118 @@
+template:
+  font: TeX Gyre Termes
+personal:
+  email: your.email@example.com
+  location: City, Country
+  name: Your Name
+  phone: "+1 (555) 012-3456"
+education:
+- awards: Dean's List (3x), Merit Scholarship, Hackathon Winner
+  cgpa: 3.80/4.00
+  courses: Data Structures, Algorithms, Machine Learning, Database Systems, Operating Systems, Computer Networks, Linear Algebra, Probability & Statistics
+  degree: Bachelor of Science in Computer Science
+  id: uni1
+  institution: Riverdale University
+  period: Sep 2021 - May 2025
+- awards: Top 5% of cohort
+  cgpa: ""
+  courses: Deep Learning Specialization, MLOps Fundamentals
+  degree: Professional Certificate in Applied AI
+  id: cert1
+  institution: Northbridge Online Academy
+  period: Jun 2024 - Dec 2024
+experiences:
+  technova:
+    company: TechNova Solutions
+    location: City, Country
+    period: Jun 2024 - Aug 2024
+    role: Software Engineering Intern
+    variants:
+      v1:
+        - Developed a RESTful API service in Python (Flask) handling 5k+ daily requests with sub-200ms latency.
+        - Raised automated test coverage from 45% to 82% across core modules.
+        - Containerized the service with Docker and shipped it to a Kubernetes staging cluster.
+      v2:
+        - Built and owned a customer-facing API processing 5k+ requests/day at p99 < 200ms.
+        - Drove test coverage from 45% to 82%, cutting production incidents by roughly 30%.
+  brightlabs:
+    company: BrightLabs Analytics
+    location: City, Country
+    period: Sep 2023 - Dec 2023
+    role: Data Analyst Intern
+    variants:
+      v1:
+        - Built interactive Tableau dashboards tracking key product metrics for 3 business units.
+        - Automated weekly reporting pipelines, cutting manual effort by roughly 10 hours per week.
+      v2:
+        - Designed self-serve analytics dashboards adopted by 3 business units, turning report turnaround from days to minutes.
+        - Pipeline automation saved about 10 analyst-hours weekly and improved data freshness to hourly.
+  greenfield:
+    company: GreenField Capital
+    location: City, Country
+    period: Jan 2023 - May 2023
+    role: Investment Analyst Intern
+    variants:
+      v1:
+        - Researched early-stage SaaS startups and screened 20+ deals for the seed fund.
+        - Built an Excel financial model to evaluate unit economics and projected returns.
+        - Co-authored a monthly market brief distributed to 15+ limited partners.
+  datahub:
+    company: DataHub Systems
+    location: City, Country
+    period: Jun 2023 - Aug 2023
+    role: Data Engineering Intern
+    variants:
+      v1:
+        - Designed an Airflow DAG that ingested 2M rows/day from 6 sources into the warehouse.
+        - Reduced nightly ETL runtime from 3h to 40min by adding incremental loads.
+        - Wrote dbt models that became the team's source of truth for revenue reporting.
+  northpeak:
+    company: NorthPeak University
+    location: City, Country
+    period: Sep 2022 - May 2023
+    role: Teaching Assistant (Intro to CS)
+    variants:
+      v1:
+        - Led weekly lab sessions for 60+ students and held office hours for debugging help.
+        - Graded assignments and authored a FAQ that cut repeat questions by about 40%.
+projects:
+  oss:
+    period: Mar 2024 - May 2024
+    title: Open Source Contribution Challenge
+    variants:
+      v1:
+        - Contributed 5 merged pull requests to a popular open-source data library, fixing bugs and improving docs.
+        - Triaged 30+ GitHub issues and rewrote the contributor onboarding guide.
+  hackathon:
+    period: Oct 2023
+    title: DataViz Hackathon
+    variants:
+      v1:
+        - Designed an interactive visualization tool for public transit data, placing 2nd among 40 teams.
+        - Used D3.js and Python to process and render real-time geospatial datasets.
+  kaggle:
+    period: Feb 2023 - Apr 2023
+    title: Kaggle ML Competition (Top 10%)
+    variants:
+      v1:
+        - Engineered features and trained gradient-boosting models, reaching a top 10% leaderboard rank.
+        - Published a reproducible notebook documenting the full experiment pipeline.
+  portfolio:
+    period: Jan 2025 - Present
+    title: Personal Portfolio & Blog
+    variants:
+      v1:
+        - Built a static site with Hugo and deployed it on Cloudflare Pages with CI via GitHub Actions.
+        - Wrote 12 technical posts on Python performance and data engineering, averaging 2k reads each.
+  mlops:
+    period: Nov 2024 - Jan 2025
+    title: MLOps Starter Kit
+    variants:
+      v1:
+        - Scaffolded a template repo with MLflow tracking, Docker training images, and a GitHub Actions CI/CD flow.
+        - Documented a reproducible training-to-serving workflow adopted by two student teams.
+skills:
+  interests: Software Engineering, Data Science, FinTech, Developer Tools
+  languages: English (Fluent), Mandarin (Native), Japanese (Basic)
+  programming: Python (Pandas, NumPy, Flask), JavaScript (Node, D3), SQL, Java, C++, R, Go
+  tools: Git, Docker, Kubernetes, Tableau, Figma, Airflow, dbt, Spark, LaTeX

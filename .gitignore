@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated output (contains CV data — never commit)
+output/
+backups/
+*.bak
+
+# Local private data overrides (keep your real CV out of the repo)
+cv_data.local.yaml
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor / OS
+.env
+.DS_Store
+.vscode/
