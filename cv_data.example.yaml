@@ -1,0 +1,14 @@
+# Starter data created on first run. Edit everything in the app's Data tab.
+template:
+  font: TeX Gyre Termes
+personal:
+  name: Your Name
+  email: you@example.com
+  phone: ''
+  location: ''
+education: []
+experiences: {}
+projects: {}
+skills:
+  Interests: ''
+  Languages: ''

@@ -1,21 +1,23 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Generated output (contains CV data — never commit)
+# --- your personal data: never commit ---
+cv_data.yaml
+cv_profile_*.yaml
+settings.json
 output/
 backups/
 *.bak
+*.pdf
+app.log
+error.log
 
-# Local private data overrides (keep your real CV out of the repo)
-cv_data.local.yaml
-
-# Virtual environments
+# --- build artefacts ---
 .venv/
-venv/
+dist/
+build/
+build_cache/
+vendor/
 
-# Editor / OS
-.env
-.DS_Store
+# --- misc ---
+__pycache__/
+*.pyc
 .vscode/
+.idea/

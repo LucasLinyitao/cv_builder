@@ -1,0 +1,72 @@
+# Fictional sample data. Copy it to your data folder as cv_data.yaml to try the app
+# (see "数据位置" in the README), then replace everything with your own details.
+template:
+  font: TeX Gyre Termes
+personal:
+  name: Alex Morgan
+  email: alex.morgan@example.com
+  phone: "+1 555 0100"
+  location: Springfield
+education:
+  - id: uni1
+    institution: Example University
+    degree: Bachelor of Science in Applied Mathematics
+    cgpa: 3.8/4.0
+    start: 2022-09
+    end: present
+    courses: Probability, Optimization, Financial Modeling, Data Structures
+    awards: Dean's List, Merit Scholarship
+experiences:
+  analyst1:
+    company: Harbor Bank
+    role: Risk Analyst Intern
+    location: Springfield
+    start: 2026-06
+    end: present
+    variants:
+      v1:                        # wording aimed at risk roles
+        - Built a Python tool that reconciles daily exposure reports, cutting manual checks from 3 hours to 20 minutes.
+        - Benchmarked counterparty limits across 12 peer institutions and summarised gaps for the credit committee.
+      v2:                        # wording aimed at data roles
+        - Automated a daily reporting pipeline in Python and SQL covering 40+ portfolios.
+        - Designed a dashboard that surfaced limit breaches to the desk in near real time.
+  advisory1:
+    company: Summit Advisory
+    role: Consulting Intern
+    location: Springfield
+    start: 2026-01
+    end: 2026-05
+    variants:
+      v1:
+        - Modelled pricing for 20+ structured products and validated results against vendor quotes.
+        - Documented the valuation methodology for a client audit, reviewed by two senior managers.
+  lab1:
+    company: Lumen Labs
+    role: Research Assistant
+    location: Remote
+    start: 2025-05
+    end: 2025-09
+    variants:
+      v1:
+        - Collected and cleaned a 200k-row dataset of public filings for a published working paper.
+        - Presented findings to a team of eight researchers at two internal seminars.
+projects:
+  case1:
+    title: National Case Competition, Finalist
+    start: 2025-02
+    end: 2025-03
+    variants:
+      v1:
+        - Led a team of four to build a pricing strategy for a retail bank; placed top 5 of 80 teams.
+  quant1:
+    title: Factor Research Challenge
+    start: 2025-10
+    end: 2025-12
+    variants:
+      v1:
+        - Back-tested 15+ price and volume factors on 10 years of equity data using Python.
+        - Reported out-of-sample results with transaction costs and turnover constraints.
+skills:
+  Interests: Risk Management, Derivatives, Data Analysis
+  Languages: English (Native), Spanish (Fluent)
+  Programming: Python (Pandas, NumPy), SQL, Excel/VBA
